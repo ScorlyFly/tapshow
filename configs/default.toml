@@ -16,7 +16,7 @@ timeout_ms = 2000
 held_key_timeout_ms = 500
 
 # Number of previous keystrokes to show
-history_count = 4
+history_count = 2
 
 # Show indicator when key is held down
 show_held_keys = true
@@ -43,7 +43,9 @@ combine_modifiers = true
 show_modifier_only = false
 
 # Keys to never display
-excluded_keys = []
+excluded_keys = [
+    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+]
 
 [privacy]
 # Pause display when these applications are focused
