@@ -155,6 +155,12 @@ sudo usermod -aG input $USER
 just build
 ```
 
+
+
+## DONE BUILD /bin/tapshow
+dont forget move file config: config.toml to .config/tapshow/config.toml
+
+
 ## License
 
 MIT License - see LICENSE file for details.
